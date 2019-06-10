@@ -1,0 +1,116 @@
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.5) 50%), url(../../images/background.jpeg);
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+	text-align: left;
+}
+
+.banner h1 {
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 120%;
+	margin-top: 0%;
+}
+
+.banner h2 {
+	font-size: 25px;
+	font-weight: lighter;
+	margin-top: -20px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+form {
+                width:500px;
+                margin:50px auto;
+}
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
+
+
+
+.box{
+  margin: 0px auto;
+  width: 300px;
+  height: 50px;
+  box-shadow:rgba(0,0,0,2);
+}
+
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  margin: 0px auto;
+  box-shadow:rgba(0,10,0,2);
+}
+
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: white;
+  border: none;
+  font-family: "Nunito"
+  font-size: 15pt;
+  font-weight: bold;
+  float: left;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(4,0,0,0.1)
+ 
+   
+    -webkit-transition: background .55s ease;
+  -moz-transition: background .55s ease;
+  -ms-transition: background .55s ease;
+  -o-transition: background .55s ease;
+  transition: background .55s ease;
+}
+
+.container-1 input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+ 
+.container-1 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;  
+}
+ 
+.container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;  
+}
+ 
+.container-1 input#search:-ms-input-placeholder {  
+   color: #65737e;  
+}
+
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: -135px;
+  margin-top: 15px;
+  z-index: 1;
+  color: white;
+}
+
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:none;
+    background: #ffffff;
+  }

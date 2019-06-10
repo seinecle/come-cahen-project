@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,500,600,700|Roboto:300,400,700");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/banner2.css");
+@import url("components/card2.css");
+@import url("components/box.css");
+@import url("components/form.css");
+
+body {
+	background: #f6f6f6;
+	font-family: "Nunito";
+	font-size: 18px;
+}
+
+h1,h2,h3,h4 {
+	font-family: "Nunito";
+	font-weight: bolder;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 25px;
+}
+
+h5 {
+	text-align: center;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #ff9c99;
+}
+
+p {
+	font-size: 15px;
+}
+
+i {
+	color: #032d3c;
+	font-size: 20px;
+}
+
+.list-inline {
+	  list-style: none; /* kill the bullet points */
+	  padding-left: 0px; /* kill remaining padding left */
+	  display: inline;
+	  margin-right: 43px;
+ }
+
+
+ --------
+
+.container {
+	  position: relative;
+	  margin: 0 auto;
+	  width: 94%;
+	  max-width: 1100px;
+	  font-family: "Nunito";
+}
+
+#nav {
+	font-family: "Nunito";
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#header {
+	z-index: 2;
+  	position: fixed;
+  	width: 100%;
+  	height: 60px;
+  	line-height: 60px;
+  	background-color: rgba(0,0,0,0);
+  	color: white;
+}
+#header h1 {
+  	top: 0px;
+  	margin: 0px;
+  	font-size: 1.2em;
+}
+#nav {
+  	position: absolute;
+  	right: 35px;
+  	top: -15px;
+  	height: 60px;
+}
+#nav ul li {
+  	float: left;
+  	list-style: none;
+}
+#nav ul li a {
+	  display: block;
+	  color: white;
+	  text-decoration: none;
+	  padding: 0 10px;
+}
+
+@media (max-width: 599px) {
+  #header .container {
+    	width: 100%;
+  }
+  #header h1 {
+    	padding-left: 3%;
+  }
+  #nav {
+    	width: 100%;
+    	top: -15px;
+    	margin-right: -10px;
+  }
+  #nav:before {
+	    content: '\2630';
+	    display: block;
+	    position: absolute;
+	    right: 3%;
+	    top: 25px;
+	    line-height: 40px;
+	    font-size: 2em;
+	    cursor: pointer;
+  }
+
+  ------
+
